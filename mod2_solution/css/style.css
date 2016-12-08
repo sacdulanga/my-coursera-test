@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+}
+
+section {
+  background-color: #737373;
+  clear: right;
+  width: 90%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: white;
+}
+
+.class_cell{
+background-color: #737373;
+border: 2px solid #000000;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+.cell_topic{
+    border: 2px solid #000000;
+    padding: 5px;
+   float: right;
+}
+
+.outer_cell{
+  margin: 0.9%;
+  background-color: #ffffff
+}
+
+.cell_topic_chicken{
+  background-color: #f28484
+}
+
+.cell_topic_beef{
+  background-color: #f92b2b
+}
+.cell_topic_sushi{
+  background-color: #F9F92B
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    border: 1px solid green;
+  }
+  .col-lg-4 {
+    width: 31.53%;
+    margin: 0.9%
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6,.col-md-12 {
+    float: left;
+    border: 1px solid green;
+  }
+  .col-md-6 {
+    width: 48.2%;
+    margin: 0.9%
+  }
+  .col-md-12 {
+    width: 98.2%;
+     margin: 0.9%
+  }
+}
